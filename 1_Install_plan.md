@@ -31,3 +31,19 @@
     alias ll='ls -l'
     alias la='ls -la'
     ```
+    * Add Contrib and Non-Free repositories
+    ```bash
+    $ sudo nano /etc/apt/sources.list
+    # Crontrib - Non Free Rpository
+    deb http://ftp.us.debian.org/debian stretch main contrib non-free
+    #deb-src http://ftp.us.debian.org/debian stretch main contrib non-free
+
+    deb http://security.debian.org/ stretch/updates main contrib non-free
+    #deb-src http://security.debian.org/ stretch/updates main contrib non-free
+    deb http://security.debian.org/ stretch main contrib non-free
+    ```
+    * Install Firmware package
+    ```bash
+    $ sudo apt-get install firmware-linux
+    ```
+    
