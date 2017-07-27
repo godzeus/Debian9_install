@@ -40,10 +40,9 @@
 
     deb http://security.debian.org/ stretch/updates main contrib non-free
     #deb-src http://security.debian.org/ stretch/updates main contrib non-free
-    deb http://security.debian.org/ stretch main contrib non-free
+    #deb http://security.debian.org/ stretch main contrib non-free
     ```
     * Install Firmware package
     ```bash
     $ sudo apt-get install firmware-linux
     ```
-    
